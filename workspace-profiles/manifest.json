@@ -1,0 +1,30 @@
+{
+  "id": "workspace-profiles",
+  "name": "Workspace Profiles",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "mikopetryk",
+  "license": "MIT",
+  "description": "Manage niri workspaces as profiles: named workspaces, pinned apps, all-screens workspaces, and linked cross-monitor switching.",
+  "tags": ["Bar", "Panel", "Workspaces", "niri"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "profiles": "[]",
+      "pairingEnabled": true,
+      "openPinnedAppsSilently": false,
+      "pairingDebounceMs": 200,
+      "showLabelInBar": true,
+      "configPath": "~/.config/niri/config.kdl",
+      "includeFile": "~/.config/niri/workspaces.kdl"
+    }
+  }
+}

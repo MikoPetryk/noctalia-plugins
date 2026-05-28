@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "workspace-profiles",
+      "name": "Workspace Profiles",
+      "version": "0.1.0",
+      "official": false,
+      "author": "mikopetryk",
+      "license": "MIT",
+      "repository": "https://github.com/mikopetryk/noctalia-plugins",
+      "minNoctaliaVersion": "3.6.0",
+      "description": "Manage niri workspaces as profiles: named workspaces, pinned apps, all-screens workspaces, and linked cross-monitor switching.",
+      "tags": ["Bar", "Panel", "Workspaces", "niri"]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "plugin": {
+    "name": "Workspace Profiles",
+    "description": "Manage niri workspaces as profiles."
+  }
+}
